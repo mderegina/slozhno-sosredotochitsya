@@ -9,4 +9,31 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #DB00FF;
+  --accent-font: #FF0070;
+  --title-font: #000028;
+  --main-font: 'IBM Plex mono';
+  --bg-img: url(../images/cover-image-dark.png);
+
+
+.header__rec::before {
+  content: 'rec';
+  top: 0;
+  right: 0;
+  text-transform: uppercase;
+}
+
+.header__rec::after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-inline-end: 10px;
+  border-radius: 50%;
+  background-color: var(--accent-color); 
+  box-shadow: 0px 0px 4px 2px var(--accent-color);
+}
 }

@@ -2,3 +2,15 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  /* Переменные тёмной темы */
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #DB00FF;
+  --accent-font: #FF0070;
+  --title-font: #000028;
+  --main-font: 'IBM Plex mono';
+  --bg-img: url(../images/cover-image.png);
+}
