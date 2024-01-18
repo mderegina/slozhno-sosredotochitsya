@@ -216,7 +216,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--accent-font);
+  outline: 1px solid var(--border-hover); 
 }
 
 .header__theme-menu-button_active {

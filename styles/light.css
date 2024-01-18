@@ -17,14 +17,11 @@
   --main-font: 'IBM Plex mono', monospace;
   --text-font: #353430;
   --title-shadow: #FF0070;
+  --border-hover: rgba(50, 49, 45, 0.40);
   --bg-img: url(../images/cover-image-light.png);
 }
 
-.page.theme_light .header__rec::before {
-  display: none;
-  }
-
-.page.theme_light .header__rec::after {
+.theme_light .header__rec {
   display: none;
 }
 
@@ -39,14 +36,11 @@
     --text-font: #353430;
     --title-shadow: #FF0070;
     --main-font: 'IBM Plex mono', monospace;
+    --border-hover: rgba(50, 49, 45, 0.40);
     --bg-img: url(../images/cover-image-light.png);
     }
 
-    .theme_light .header__rec::before {
-      display: none;
-    }
-  
-    .theme_light .header__rec::after {
+    .theme_light .header__rec {
       display: none;
     }
   }   

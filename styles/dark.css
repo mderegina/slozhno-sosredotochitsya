@@ -16,6 +16,7 @@
   --accent-font: #FF0070;
   --text-font: #000028;
   --title-shadow: #FF0070;
+  --border-hover: rgba(255, 0, 112, 0.40);
   --main-font: 'IBM Plex mono', monospace;
   --bg-img: url(../images/cover-image-dark.png);
 }
