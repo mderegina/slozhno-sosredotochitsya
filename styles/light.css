@@ -40,7 +40,7 @@
     --bg-img: url(../images/cover-image-light.png);
     }
 
-    .theme_light .header__rec {
+  .header__rec {
       display: none;
     }
   }   

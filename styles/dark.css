@@ -21,4 +21,6 @@
   --bg-img: url(../images/cover-image-dark.png);
 }
 
-
+.page.theme_dark .header__rec {
+  display: block;
+}
